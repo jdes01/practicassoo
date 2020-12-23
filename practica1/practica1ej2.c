@@ -1,3 +1,10 @@
+//Para ver un proceso zombie, implemente un programa que tenga un hijo que acabe inmediatamente
+//(por ejemplo, que imprima su ID y termine). Deje dormir al padre mediante la función sleep()
+//durante 20 segundos y que luego acabe usando por ejemplo exit(EXIT_SUCCESS), sin recoger al
+//hijo.
+//Con otro terminal monitorice los procesos la orden de la “ps -a”. 
+
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

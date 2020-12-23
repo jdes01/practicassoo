@@ -1,3 +1,5 @@
+//Programa b) Lo mismo, pero recreando lo que representa la segunda figura. (cada hijo de un solo padre(en plan en cadena, uno detras de otro todo el rato))
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -15,7 +17,7 @@ int main(){
     for (int i=0; i<nHijos; i++){
         
         hijo=fork(); //aqui llegan los hijos
-
+            
         switch (hijo){
         
         case -1:

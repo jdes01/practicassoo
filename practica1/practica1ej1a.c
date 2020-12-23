@@ -1,3 +1,6 @@
+// Programa a) Cree un abanico de procesos como el que se refleja en la primera figura (1 padre; varios hijos (del mismo padre))
+
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
